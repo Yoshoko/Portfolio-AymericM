@@ -1,6 +1,8 @@
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import Image from "next/image";
+
 
 const APropos = () => {
   return (
@@ -96,10 +98,20 @@ const APropos = () => {
                 }
               />
             </div>
+            <div className=" flex justify-center">
+          <Image
+            src="/bananacat.png"
+            alt="beeeeeeeeeecat"
+            width={200}
+            height={200}
+            className="rounded-full"
+          />
+        </div>
           </div>
         </div>
       </div>
     </section>
+    
   );
 };
 

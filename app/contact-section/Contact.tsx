@@ -5,6 +5,7 @@ import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -49,6 +50,17 @@ const Contact = () => {
               </Link>
             </div>
           </div>
+
+
+        <div className=" flex justify-center">
+          <Image
+            src="/capycanar.png"
+            alt="capycanar"
+            width={180}
+            height={180}
+            className="rounded-full"
+          />
+        </div>
 
           <div className="flex gap-10 text-[16px] font-bold text-[#e4ded7]  sm:gap-14 sm:text-[24px] md:gap-10 md:text-[16px] lg:gap-20 lg:text-[28px]">
             <Link

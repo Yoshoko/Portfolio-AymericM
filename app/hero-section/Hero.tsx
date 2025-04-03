@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/projects/oui.png";
+import profile from "../../public/cowcat.webp";
 
 const Hero = () => {
   return (
@@ -98,7 +98,6 @@ const Hero = () => {
               href=""
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Kora Website"
             >
             </Link>
           </p>

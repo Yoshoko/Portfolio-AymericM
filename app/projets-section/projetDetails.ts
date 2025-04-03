@@ -41,7 +41,7 @@ export const devProjets = [
   },
   {
     id: 3,
-    name: "Gilles Charrier",
+    name: "Plaisir Gourmet",
     description:
       "Conception d'un site web sur mesure pour un chef à domicile, avec pour objectif de refléter son identité culinaire unique, mettre en valeur ses prestations et faciliter les réservations.",
     technologies: ["React", "Tailwind CSS", "Gsap"],
