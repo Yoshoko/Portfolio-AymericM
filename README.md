@@ -29,5 +29,7 @@ npm run dev
 Le projet sera alors accessible depuis ton navigateur, généralement à l’adresse suivante :
 👉 http://localhost:3000
 
+![Screenshot](https://github.com/user-attachments/assets/000283e7-4fde-4221-a16a-780703f56e41)
 
-![Screenshot](https://github.com/user-attachments/assets/25ee4e67-efe6-4d26-a355-15ea714f099c)
+
+
