@@ -6,7 +6,7 @@ Commence par ouvrir un terminal ou un invite de commandes sur ton ordinateur.
 2. Clone le dépôt Git
 Utilise la commande suivante pour cloner le projet sur ta machine :
 
-git clone https://github.com/ton-utilisateur/nom-du-projet.git
+git clone https://github.com/Yoshoko/Portfolio-AymericM
 Cette commande va créer un dossier contenant tous les fichiers du projet.
 
 3. Accède au dossier du projet
