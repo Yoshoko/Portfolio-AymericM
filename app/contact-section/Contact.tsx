@@ -56,8 +56,8 @@ const Contact = () => {
           <Image
             src="/capycanar.png"
             alt="capycanar"
-            width={180}
-            height={180}
+            width={160}
+            height={160}
             className="rounded-full"
           />
         </div>
