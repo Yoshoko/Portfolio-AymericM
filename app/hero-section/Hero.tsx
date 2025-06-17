@@ -4,7 +4,7 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/cowcat.webp";
+import profile from "../../public/rabbit.png";
 
 
 const Hero = () => {
@@ -85,16 +85,14 @@ const Hero = () => {
       </div>
 
       <div
-        className="absolute bottom-10 flex items-center 
-      justify-center
-      md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
+        className="absolute bottom-10 flex items-center justify-center md:bottom-10 lg:w-[90%] lg:max-w-[1440px] lg:justify-between"
       >
         <motion.div
           className="  max-w-[350px] md:max-w-[400px] lg:max-w-[400px]"
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Designer et développeur créatif. Actuellement en recherche d'un stage de 6 mois.
+            Designer et développeur créatif. Actuellement en recherche d'un stage de 3 mois.
             <Link
               href=""
               target="_blank"

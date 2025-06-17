@@ -31,11 +31,11 @@ export const devProjets = [
   },
   {
     id: 2,
-    name: "Jeu Unity2d",
+    name: "Plasir Gourmet",
     description:
-      "Développement d'un jeu 2D en pixel art sur Unity, combinant gameplay fluide et esthétique rétro pour une expérience nostalgique et engageante.",
-    technologies: ["Unity", "C#", "Pixel Art"],
-    github: "https://www.youtube.com/watch?v=l_Xq-jnoq3Y",
+      "Création d’un site web pour Plaisir Gourmet, cuisinier à domicile, conçu pour refléter son univers culinaire à travers une navigation fluide et un design chaleureux.",
+    technologies: ["Figma", "Illustrator", "React"],
+    github: "https://github/yoshoko",
     image: require(".//../../public/projects/jeu.png"),
     available: true,
   },
