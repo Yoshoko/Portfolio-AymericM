@@ -2,9 +2,10 @@
 import { useEffect, useState } from "react"
 import ProjetCard from "./ProjetCard"
 import { supabase } from "../utils/supabase"
+import {ProjetProps} from "./projetDetails";
 
 const ProjetGrid = () => {
-  const [projects, setProjects] = useState<Project[]>([])
+  const [projects, setProjects] = useState<ProjetProps[]>([])
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -35,7 +36,7 @@ const ProjetGrid = () => {
   return (
     <>
       <div className="grid w-[90%] grid-cols-1 grid-rows-2 gap-y-10 gap-x-6 lg:max-w-[1200px] lg:grid-cols-1">
-        {projects.map((projet: Project) => (
+        {projects.map((projet: ProjetProps) => (
           <ProjetCard
             id={projet.id}
             key={projet.id}

@@ -75,7 +75,7 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="COWCAT"
+              alt="rabbit"
               data-blobity-tooltip="MOI"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px]  hover:grayscale 20 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
@@ -92,7 +92,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Designer et développeur créatif. Actuellement en recherche d'un stage de 3 mois.
+                       Designer et développeur créatif. Actuellement en recherche d&apos;un stage de 3 mois.
             <Link
               href=""
               target="_blank"
