@@ -7,18 +7,21 @@ Commence par ouvrir un terminal ou un invite de commandes sur ton ordinateur.
 Utilise la commande suivante pour cloner le projet sur ta machine :
 
 git clone https://github.com/Yoshoko/Portfolio-AymericM
+
 Cette commande va créer un dossier contenant tous les fichiers du projet.
 
 3. Accède au dossier du projet
 Une fois le dépôt cloné, rends-toi dans le dossier nouvellement créé :
 
 cd nom-du-projet
+
 Assure-toi que tu es bien dans le dossier racine du projet avant de passer à l’étape suivante.
 
 4. Installe les dépendances
 Avant de pouvoir lancer l’application, tu dois installer toutes les dépendances nécessaires :
 
 npm install
+
 Cette commande va lire le fichier package.json et installer automatiquement tout ce dont le projet a besoin.
 
 5. Lance le projet en mode développement
