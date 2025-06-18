@@ -17,7 +17,7 @@ const NavBar = () => {
   return (
     <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[350px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[450px] md:p-2 lg:w-[500px]">
       <Link
-        href="https://drive.google.com/file/d/1n1vQXmLub32EZ1R8oJsEOry8CzGpzvfo/view?usp=sharing"
+        href="https://drive.google.com/file/d/1iEXKqc5_L9dEqcCZTIoM9cIHGsyr1W7f/view?usp=drive_link"
         target="_blank"
         className="flex"
         data-blobity-tooltip="Ouvrir mon CV"
