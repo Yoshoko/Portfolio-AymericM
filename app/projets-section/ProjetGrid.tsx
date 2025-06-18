@@ -16,13 +16,10 @@ const ProjetGrid = () => {
           .select('*')
           .order('id', { ascending: true })
 
-        console.clear();
-        console.log(data);
 
         if (error) throw error
         setProjects(data || [])
       } catch (error) {
-        console.error('Error fetching projects:', error)
       } finally {
         setLoading(false)
       }
