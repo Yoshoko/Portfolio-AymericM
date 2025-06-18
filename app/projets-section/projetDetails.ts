@@ -15,7 +15,7 @@ export const devProjets = [
     description:
       "Ce projet UX/UI design moderne et intuitif est destiné à présenter un catalogue interactif dédié aux microcars innovantes.",
     technologies: ["Figma", "Photoshop", "Adobe XD"],
-    github: "https://www.youtube.com/watch?v=A1E8sE9blDA",
+    github: "github.com/yoshoko",
     image: require(".//../../public/projects/microcar.png"),
     available: true,
   },
@@ -25,7 +25,7 @@ export const devProjets = [
     description:
       "Création d'un site web pour un restaurant, conçu pour refléter son identité culinaire à travers une navigation fluide et un design immersif.",
     technologies: ["Figma", "Photoshop", "Adobe XD"],
-    github: "https://www.youtube.com/watch?v=l_Xq-jnoq3Y",
+    github: "github.com/yoshoko",
     image: require(".//../../public/projects/lesmerovingiens.png"),
     available: true,
   },
@@ -45,7 +45,7 @@ export const devProjets = [
     description:
       "Conception d'un site web sur mesure pour un chef à domicile, avec pour objectif de refléter son identité culinaire unique, mettre en valeur ses prestations et faciliter les réservations.",
     technologies: ["React", "Tailwind CSS", "Gsap"],
-    github: "https://www.youtube.com/watch?v=l_Xq-jnoq3Y",
+    github: "github.com/yoshoko",
     image: require(".//../../public/projects/gilles.png"),
     available: true,
   },
