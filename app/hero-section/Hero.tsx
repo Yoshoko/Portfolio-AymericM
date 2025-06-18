@@ -94,7 +94,7 @@ const Hero = () => {
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
                        Designer et développeur créatif. Actuellement en recherche d&apos;un stage de 3 mois.
             <Link
-              href=""
+              href="#contact"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
             >
