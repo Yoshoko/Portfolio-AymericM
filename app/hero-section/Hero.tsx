@@ -8,9 +8,16 @@ import profile from "../../public/rabbit.png";
 
 
 const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <motion.section
-      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh] 3xl:h-[85vh]"
+      className="relative z-10 flex h-[85vh] w-full items-stretch justify-center bg-[url('.//../public/hero.jpg')] bg-cover bg-center py-0 sm:h-[90vh] md:h-[100vh] 3xl:h-[85vh]"
       id="home"
       initial="initial"
       animate="animate"
@@ -19,17 +26,13 @@ const Hero = () => {
 
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
-          <Link
-            href="#contact"
-            
+          <motion.button
+            className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block md:text-[16px] lg:block"
+            variants={bodyAnimation}
+            onClick={scrollToContact}
           >
-            <motion.button
-              className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
-              variants={bodyAnimation}
-            >
-              CONTACT
-            </motion.button>
-          </Link>
+            CONTACT
+          </motion.button>
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
@@ -92,9 +95,9 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-                       Designer et développeur créatif. Actuellement en recherche d&apos;un stage de 3 mois.
+            Designer et développeur créatif. Actuellement en recherche d'un stage de 3 mois.
             <Link
-              href="#contact"
+              href=""
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
             >
