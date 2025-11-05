@@ -100,8 +100,8 @@ const APropos = () => {
             </div>
             <div className=" flex justify-center">
           <Image
-            src="/bananacat.png"
-            alt="beeeeeeeeeecat"
+            src="/banana.png"
+            alt="cat"
             width={200}
             height={200}
             className="rounded-full"
